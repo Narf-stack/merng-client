@@ -19,7 +19,7 @@ const authLink = setContext(() => {
 
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000'
+  uri: 'https://scl-serv.herokuapp.com/'
 });
 
 const client = new ApolloClient({
